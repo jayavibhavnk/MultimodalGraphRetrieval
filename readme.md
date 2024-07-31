@@ -20,6 +20,7 @@ print("Result Paths:", result_paths)
 # Multimodal Retrieval (with captioning and image and graph linkage)
 
 ```python
+from multimodal_rag import MultimodalRetrieval
 from langchain_core.documents.base import Document
 
 # Prepare text documents
@@ -35,7 +36,7 @@ image_paths = [
 ]
 
 # Initialize and preprocess
-rag = MultimodalGraphRAG()
+rag = MultimodalRetrieval()
 rag.preprocess(text_documents, image_paths, similarity_threshold=0.2)
 
 # Perform a query
