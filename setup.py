@@ -24,7 +24,7 @@ print("Result Paths:", result_paths)
 
 setup(
     name='MultimodalGraphRetrieval',
-    version='0.2.2',
+    version='0.0.1a',
     description='Multimodal Graph retrieval',
     long_description=long_description,
     long_description_content_type='text/markdown',
