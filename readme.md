@@ -1,4 +1,4 @@
-# Usage Example
+# Example Usage
 
 ```python
 from multimodal_rag import MultimodalRAG
